@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.vuecloakify/
+.package-smoke-*
+.concurrent-*
+.release/
+coverage/
+dist/
+examples/*/dist/
+node_modules/
+*.tgz

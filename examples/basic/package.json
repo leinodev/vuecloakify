@@ -1,0 +1,21 @@
+{
+  "name": "@leinodev/vuecloakify-example-basic",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:theme": "vuecloakify",
+    "build:theme:debug": "vuecloakify --debug --out dist-debug",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@leinodev/vuecloakify": "workspace:*",
+    "vue": "^3.5.28"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "typescript": "^6.0.3",
+    "vite": "^7.3.5",
+    "vue-tsc": "^3.3.7"
+  }
+}
