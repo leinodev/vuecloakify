@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@leinodev/vuecloakify": "workspace:*",
-    "vue": "^3.5.28"
+    "vue": "^3.5.41"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.7",
